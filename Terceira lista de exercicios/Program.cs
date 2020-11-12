@@ -24,6 +24,36 @@ namespace Terceira_lista_de_exercicios
                 
             }
 
+            //modelo
+            try
+            {
+                Computador positivo = new Computador("aleatorio");
+            }
+            catch (Exception erro)
+            {
+                Console.WriteLine(erro.Message);
+            }
+
+            //modelo e cor
+            try
+            {
+                Computador intel = new Computador("gamer", "amarelo");
+            }
+            catch (Exception erro)
+            {
+                Console.WriteLine(erro.Message);
+            }
+
+            //nome
+            try
+            {
+                Estudante pedro = new Estudante("");
+            }
+            catch (Exception erro)
+            {
+                Console.WriteLine(erro.Message);
+            }
+
             //nome e idade
             try
             {
@@ -68,6 +98,16 @@ namespace Terceira_lista_de_exercicios
             try
             {
                 Veiculo peugeot = new Veiculo("", "abc");
+            }
+            catch (Exception erro)
+            {
+                Console.WriteLine(erro.Message);
+            }
+
+            //cor, modelo, ano e tipo
+            try
+            {
+                Veiculo ferrari = new Veiculo("azul", "aleatorio", 2000, "carro");
             }
             catch (Exception erro)
             {

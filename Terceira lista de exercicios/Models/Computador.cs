@@ -21,9 +21,10 @@ namespace Terceira_lista_de_exercicios.Models
             Cor = _cor;   
         }
 
-        public Computador(string modelo, string _cor)
+        public Computador(string _modelo, string _cor)
         {
-
+            Modelo = _modelo;
+            Cor = _cor;
         }
 
         private string cor;
@@ -41,7 +42,7 @@ namespace Terceira_lista_de_exercicios.Models
                 }
                 else
                 {
-                    throw new Exception("Insira os caracteres branco ou preto");
+                    throw new Exception("Insira os cadastros branco ou preto");
                 }
             }
         }
@@ -55,7 +56,14 @@ namespace Terceira_lista_de_exercicios.Models
             }
             set
             {
-
+                if (value == "gamer" || value == "desktop")
+                {
+                    modelo = value;
+                }
+                else
+                {
+                    throw new Exception("Insira os cadastros gamer ou desktop");
+                }
             }
         }
 

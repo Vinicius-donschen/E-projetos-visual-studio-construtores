@@ -13,7 +13,7 @@ namespace Terceira_lista_de_exercicios.Models
 
         public Estudante(string _nome)
         {
-
+            Nome = _nome;
         }
 
         public Estudante(string _nome, int _idade)
@@ -82,7 +82,7 @@ namespace Terceira_lista_de_exercicios.Models
             }
             set
             {
-                if (value.Length >= 3)
+                if (value.Length >= 1)
                 {
                     nome = value;
                 }

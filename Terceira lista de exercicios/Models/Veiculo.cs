@@ -13,7 +13,7 @@ namespace Terceira_lista_de_exercicios.Models
 
         public Veiculo(string _tipo)
         {
-
+            Tipo = _tipo;
         }
 
         public Veiculo(string _tipo, int _ano)
@@ -34,7 +34,10 @@ namespace Terceira_lista_de_exercicios.Models
 
         public Veiculo(string _cor, string _modelo, int _ano, string _tipo)
         {
-
+            Cor = _cor;
+            Modelo = _modelo;
+            Ano = _ano;
+            Tipo = _tipo;
         }
 
         private int ano;
@@ -93,6 +96,26 @@ namespace Terceira_lista_de_exercicios.Models
                 else
                 {
                     throw new Exception("o modelo deve ter no mínimo 5 caracteres");
+                }
+            }
+        }
+
+        private string cor;
+        public string Cor
+        {
+            get
+            {
+                return cor;
+            }
+            set
+            {
+                if (value == "azul" || value == "verde")
+                {
+                    cor = value;
+                }
+                else
+                {
+                    throw new Exception("Insira o cadastro de cor azul ou verde");
                 }
             }
         }
