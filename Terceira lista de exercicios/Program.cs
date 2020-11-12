@@ -74,6 +74,16 @@ namespace Terceira_lista_de_exercicios
                 Console.WriteLine(erro.Message);
             }
 
+            //email e telefone
+            try
+            {
+                Estudante maria = new Estudante("viniciusdonschen@gmail.commmmmmmmmm", "0000-00000");
+            }
+            catch (Exception erro)
+            {
+                Console.WriteLine(erro.Message);
+            }
+
             //ano do veículo
             try
             {

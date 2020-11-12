@@ -30,7 +30,8 @@ namespace Terceira_lista_de_exercicios.Models
 
         public Estudante(string _email, string _telefone)
         {
-
+            Email = _email;
+            Telefone = _telefone;
         }
 
         private int idade;
@@ -89,6 +90,26 @@ namespace Terceira_lista_de_exercicios.Models
                 else
                 {
                     throw new Exception("O nome não pode ser nulo!!");                }
+            }
+        }
+
+        private string email;
+        public string Email
+        {
+            get
+            {
+                return email;
+            }
+            set
+            {
+                if (value.Length <= 30)
+                {
+                    email = value;
+                }
+                else
+                {
+                    throw new Exception("o email nao pode conter mais de 30 caracteres");
+                }  
             }
         }
     }
