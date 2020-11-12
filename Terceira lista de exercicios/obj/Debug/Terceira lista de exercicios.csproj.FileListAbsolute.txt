@@ -1,0 +1,7 @@
+E:\projetos visual studio\construtores\Terceira lista de exercicios\bin\Debug\Terceira lista de exercicios.exe.config
+E:\projetos visual studio\construtores\Terceira lista de exercicios\bin\Debug\Terceira lista de exercicios.exe
+E:\projetos visual studio\construtores\Terceira lista de exercicios\bin\Debug\Terceira lista de exercicios.pdb
+E:\projetos visual studio\construtores\Terceira lista de exercicios\obj\Debug\Terceira lista de exercicios.csprojAssemblyReference.cache
+E:\projetos visual studio\construtores\Terceira lista de exercicios\obj\Debug\Terceira lista de exercicios.csproj.CoreCompileInputs.cache
+E:\projetos visual studio\construtores\Terceira lista de exercicios\obj\Debug\Terceira lista de exercicios.exe
+E:\projetos visual studio\construtores\Terceira lista de exercicios\obj\Debug\Terceira lista de exercicios.pdb
